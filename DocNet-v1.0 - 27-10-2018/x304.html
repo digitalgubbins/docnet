@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <base href="./">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="description" content="DocNet v1.0">
+    <meta name="author" content="Paul Osman">
+
+    <title>DOCNET - X304</title>
+
+    <!-- fa Icons -->
+    <link href="assets/fontawesome-free-5.4.1-web/css/all.css" rel="stylesheet">
+    
+    <!-- Main styles for this application-->
+    <link href="css_local/css/style.css" rel="stylesheet">
+    <link href="css_local/pace.min.css" rel="stylesheet">
+    <link href="css_local/docnet_custom.css" rel="stylesheet">
+
+  </head>
+
+<!-- Navbar --> 
+<body class="app header-fixed sidebar-fixed aside-menu-fixed sidebar-lg-show">
+
+<!-- Top bar -->
+  <header class="app-header navbar">
+    <button class="navbar-toggler sidebar-toggler d-lg-none mr-auto" type="button" data-toggle="sidebar-show">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="http://www.refresco.com" target="_blank">
+      <img class="navbar-brand-full" src="assets/logos/ruk-logo-black.jpg" width=90 height="33" alt="RUK Logo">
+      <img class="navbar-brand-minimized" src="assets/logos/ruk-logo-black.jpg" width="30" height="10" alt="RUK Logo">       
+    </a>
+    <button class="navbar-toggler sidebar-toggler d-md-down-none" type="button" data-toggle="sidebar-lg-show">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </header>
+
+<div class="app-body">
+
+<!-- sidebar -->
+  <div class="sidebar">
+    <nav class="sidebar-nav">
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">
+            <i class="nav-icon fas fa-network-wired"></i>&nbsp;&nbsp;&nbsp;DOCNET
+            <!--<span class="badge badge-primary">NEW</span> -->
+          </a>
+        </li>
+            
+<!-- sidebar top section-->            
+        <li class="divider"></li>
+        <li class="nav-title">Assets</li>
+
+<!-- Factory 1 -->            
+        <li class="nav-item nav-dropdown">
+          <a class="nav-link nav-dropdown-toggle" href="#">
+            <i class="nav-icon fas fa-industry"></i>&nbsp;&nbsp;Factory 1</a>
+              <ul class="nav-dropdown-items">
+                <li class="nav-item">
+                  <a class="nav-link" href="x106.html" target="_top">
+                  <i class="nav-icon fas fa-code-branch fa-rotate-90"></i> X106</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="x108.html" target="_top">
+                  <i class="nav-icon fas fa-code-branch fa-rotate-90"></i> X108</a>
+                </li>
+              </ul>
+            </li>
+          <li class="divider"></li>  
+  
+<!-- Factory 2 -->            
+          <li class="nav-item nav-dropdown" id="ddf2">
+            <a class="nav-link nav-dropdown-toggle" href="#">
+              <i class="nav-icon fas fa-industry"></i>&nbsp;&nbsp;Factory 2</a>
+                <ul class="nav-dropdown-items">
+                  <li class="nav-item">
+                    <a class="nav-link" href="x201.html" target="_top">
+                    <i class="nav-icon fas fa-code-branch fa-rotate-90"></i> X201</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="x202.html" target="_top">
+                    <i class="nav-icon fas fa-code-branch fa-rotate-90"></i> X202</a>
+                  </li>
+                </ul>
+              </li>
+            <li class="divider"></li>                
+
+<!-- Factory 3 -->            
+        <li class="nav-item nav-dropdown open">
+          <a class="nav-link nav-dropdown-toggle active" href="#">
+            <i class="nav-icon fas fa-industry"></i>&nbsp;&nbsp;Factory 3</a>
+              <ul class="nav-dropdown-items">
+                <li class="nav-item">
+                  <a class="nav-link active">
+                  <i class="nav-icon fas fa-code-branch fa-rotate-90"></i> X304</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="f3Process.html" target="_top">
+                  <i class="nav-icon fas fa-database"></i> Process</a>
+                </li>
+              </ul>
+            </li>
+          <li class="divider"></li>  
+
+<!-- Global Assets -->               
+        <li class="nav-item nav-dropdown">
+          <a class="nav-link nav-dropdown-toggle" href="#">
+            <i class="nav-icon fas fa-globe"></i> Common Assets</a>
+              <ul class="nav-dropdown-items">
+                <li class="nav-item">
+                <a class="nav-link" href="coders.html" target="_top">
+                <i class="nav-icon fas fa-print"></i> Coders</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="spiralveyor.html" target="_top">
+                <i class="nav-icon fas fa-dna"></i> Spiralveyor</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="glueApplicator.html" target="_top">
+                <i class="nav-icon fas fa-thermometer-half"></i> Glue Applicator</a>
+              </li>
+            </ul>
+          </li>
+        <li class="divider"></li>  
+      </ul>
+    </nav>
+ 
+<!-- minimiser button -->
+    <button class="sidebar-minimizer brand-minimizer" type="button"></button>
+  </div><!--sidebar end-->
+
+<!-- container -->  
+  <main class="main">
+    
+<!-- Tabs -->
+      
+    <div class="docs">
+      <h6>&nbsp;&nbsp;X304 Tetrapak TWA19</h6>
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#x304-filler"><i class="nav-icon fas fa-fill-drip"></i>&nbsp;&nbsp;Filler</a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#x304-accumulator"><i class="nav-icon fas fa-dna"></i>&nbsp;&nbsp;Accumulator</a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#x304-straw"><i class="nav-icon fas fa-wind fa-rotate-270"></i>&nbsp;&nbsp;Straw Applicator</a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#x304-tray"><i class="nav-icon fas fa-box"></i>&nbsp;&nbsp;Tray Packer</a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#x304-checkWeigher"><i class="nav-icon fas fa-weight"></i>&nbsp;&nbsp;Check Weigher</a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#x304-shrink"><i class="nav-icon fas fa-toilet-paper"></i>&nbsp;&nbsp;Shrink Tunnel</a>
+            </li>	
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#x304-palletiser"><i class="nav-icon fas fa-pallet"></i>&nbsp;&nbsp;Palletiser</a>
+            </li>		
+        </ul>
+            
+<!-- Tab panes -->
+      <div class="tab-content">
+      
+<!-- filler tab -->
+              <div class="tab-pane container active" id="x304-filler">
+                <div class="forms-list">
+                  <ul class="list-group">
+            <!-- OM  -->                        
+                    <h6>Operating Manual</h6>
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">OM-2771727-0106</a>
+                      </li>
+            <!-- MM  -->    
+                    <h6>Maintenance Manual</h6>
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">MM-2771722-0104&nbsp;&nbsp;&nbsp;</a><span class="badge badge-success">&nbsp;Latest&nbsp;</span>
+                      </li>
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">MM-2771722-0103</a> 
+                      </li>
+            <!-- EM  -->    
+                    <h6>Electrical Manual</h6>                          
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">EM-2771720-0109&nbsp;&nbsp;&nbsp;</a><span class="badge badge-success">&nbsp;Latest&nbsp;</span>
+                      </li>
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">EM-2771720-0101</a>
+                      </li>
+            <!-- SPC  -->    
+                    <h6>Spare Parts Catalogue</h6>                            
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">SPC-2771718-0105&nbsp;&nbsp;&nbsp;</a><span class="badge badge-success">&nbsp;Latest&nbsp;</span>
+                      </li>
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">SPC-2771718-0104</a>
+                      </li>	
+            <!-- RM  -->
+                    <h6>Rebuild Manuals</h6> 
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">RM-1531194-0103 [FFU]</a>
+                      </li>
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">RM-1531258-0101 [TWA Clutch]</a>
+                      </li>
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">RM-3324219-0101 [Air intake]</a>
+                      </li>
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">RM-1531186-0103 [Air Super Heater]</a>
+                      </li>
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">RM-1531242-0101 [Condensation Water]</a>
+                      </li>		  
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">RM-2945247-0105 [Pneumatic And Software]</a>
+                      </li>		  
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">RM-1531258-0101 [Drive Belt and Clutch]</a>
+                      </li>		
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">RM-1531342-0102 [Flap Sealing]</a>
+                      </li>		  
+                    </ul>
+                  </div>
+                </div>
+      
+<!-- Accumulator tab -->
+              <div class="tab-pane container fade" id="x304-accumulator">
+                <div class="forms-list">
+                  <ul class="list-group">
+           <!-- OM  -->                        
+                    <h6>Operating Manual</h6>
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">OM-2927982-0102 [ACHX10]&nbsp;&nbsp;&nbsp;</a><span class="badge badge-success">&nbsp;Latest&nbsp;</span>
+                      </li>
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">OM-2841576-0102 [ACHX10]</a>
+                      </li>
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">OM-3134007-0101 [ACHX30]&nbsp;&nbsp;&nbsp;</a><span class="badge badge-success">&nbsp;Latest&nbsp;</span>
+                      </li>
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">OM-3235281-0102 [ACHX30]</a>
+                      </li>
+            <!-- MM  -->    
+                    <h6>Maintenance Manual</h6>
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">MM-3134009-0102 [ACHX30]</a>
+                      </li>
+            <!-- SPC  -->    
+                    <h6>Spare Parts Catalogue</h6>                            
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">SPC-3178273-0104 [ACHX30]</a>
+                      </li>
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">SPC-2841577-0102 [ACHX10]</a>
+                      </li>  
+            <!-- TEM  -->    
+                    <h6>Technical Manual</h6>                            
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">TeM-2841575-0102 [ACHX10]</a>
+                      </li>    
+            <!-- UP  -->    
+                    <h6>Upgrade Parts</h6>                            
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">UP-3445355-0101 [ACHX30]</a>
+                      </li>                                               		  
+                    </ul>
+                  </div>             
+                </div>
+          
+<!-- Straw Applicator tab -->
+              <div class="tab-pane container fade" id="x304-straw">
+                <div class="forms-list">
+                  <ul class="list-group">
+            <!-- OM  -->                        
+                    <h6>Operating Manual</h6>
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">OM-2646180-0101</a>
+                      </li>
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">OM-3053537-0101 [Bent Foil Treater]</a>
+                      </li>
+            <!-- MM  -->    
+                    <h6>Maintenance Manual</h6>
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">MM-2760338-0101</a>
+                      </li>
+                      </li>
+            <!-- EM  -->    
+                    <h6>Electrical Manual</h6>                          
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">EM-2838387-0103</a>
+                      </li>
+            <!-- SPC  -->    
+                    <h6>Spare Parts Catalogue</h6>                            
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">SPC-2760340-0103</a>
+                      </li>                                                  		  
+                    </ul>
+                  </div>             
+                </div>
+      
+<!-- Tray Packer tab -->		
+              <div class="tab-pane container fade" id="x304-tray">
+                <div class="forms-list">
+                  <ul class="list-group">
+            <!-- SPC  -->        
+                    <h6>Spare Parts Catalogue</h6>                          
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">20110237CL153</a>
+                      </li>
+            <!-- SPC  -->    
+                    <h6>Electrical Manual</h6>                            
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">20070963-EM</a>
+                      </li> 
+            <!-- Drive Manuals  -->                        
+                    <h6>Drive Manuals</h6>
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">Rexroth IndraDrive C Drive Controllers HCS02.1, HCS03.1</a>
+                      </li>
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">Rexroth IndraDrive C Drive Controller Power Sections HCS02.1</a>
+                      </li>
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">Rexroth IndraDyn S Synchronous Motors MSK</a>
+                      </li>
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">SEW Eurodrive MoviMot</a>
+                      </li>     
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">Danfoss-VLT28-MG28A302</a>
+                      </li>      
+                    </ul>
+                  </div>
+                </div>	
+      
+<!-- Check Weigher tab -->		
+              <div class="tab-pane container fade" id="x304-checkWeigher">
+                <div class="forms-list">
+                  <ul class="list-group">
+          <!-- Operating Manual  -->                        
+                    <h6>Operating Manual</h6>
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/MSword.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/wordTest.docx">CHECK_E_V2_Operation</a>
+                      </li>
+          <!-- Installation Manual  -->            
+                    <h6>Installation Manual</h6>
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/MSword.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/wordTest.docx">CHECK_E_V2_Installation</a>
+                      </li>         
+                    </ul>
+                  </div>
+                </div>	
+                
+<!-- Shrink tab -->
+              <div class="tab-pane container fade" id="x304-shrink">
+                <div class="forms-list">
+                  <ul class="list-group">
+            <!-- OM  -->                        
+                    <h6>Operating Manual</h6>
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">OM-585719-0102 [X304F]</a>
+                      </li>
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">OM-2667127-0104 [X304E]</a>
+                      </li>
+            <!-- MM  -->    
+                    <h6>Maintenance Manual</h6>
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">MM-585718-0102 [X304F]</a>
+                      </li>
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">MM-2667128-0103 [X304E]</a>
+                      </li>
+            <!-- EM  -->    
+                    <h6>Electrical Manual</h6>                          
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">EM-585732-0102 [X304F]</a>
+                      </li>
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">EM-2667131-0104 [X304E]</a>
+                      </li>
+            <!-- SPC  -->    
+                    <h6>Spare Parts Catalogue</h6>                            
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">SPC-585733-0102 [X304F]</a>
+                      </li>    
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">SPC-2667130-0105 [X304E]</a>
+                      </li>                                                		  
+                    </ul>
+                  </div>             
+                </div>
+
+<!-- Palletiser tab -->
+              <div class="tab-pane container fade" id="x304-palletiser">
+                <div class="forms-list">
+                  <ul class="list-group">
+          <!-- OM  -->                        
+                    <h6>Operating Manual</h6>
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">OM_0330C0_en_DRAFT</a>
+                      </li>
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">OM_0440X1_01_en</a>
+                      </li>
+          <!-- SPC  -->    
+                    <h6>Spare Parts Catalogue</h6>                          
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">SPC_0330C0_01_en</a>
+                      </li>
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">SPC_0440X1_01_en</a>
+                      </li>
+          <!-- SPC  -->    
+                    <h6>Technical Manuals</h6>                            
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">TeM_0440X1_01</a>
+                    </li>    
+                    <li class="list-group-item">
+                      <img class="file-icon" src="assets/icons/acrobat.png" alt="Generic placeholder image">
+                      <a href="assets/test-files/pdfTest.pdf">TeM_0330C0_01</a>
+                      </li>                                                		  
+                    </ul>
+                  </div>             
+                </div>
+              </div><!-- tab content-->
+            </div><!-- docs -->
+          </main><!-- content -->
+        </div><!-- app body-->
+
+<!-- Footer -->
+    <footer class="app-footer">
+      <div>
+        <!--<a href="https://coreui.io">DocNet</a>-->
+        <span>DocNet v1.0 &copy; 2018 Refresco UK Ltd.</span>
+      </div>
+      <!--
+      <div class="ml-auto">
+        <span>Powered by</span>
+        <a href="https://coreui.io">CoreUI</a>
+      </div>-->
+    </footer>
+
+    <!-- js libraries-->  
+    <script src="js_local/jquery-3.3.1.min.js"></script>
+    <script src="js_local/popper.min.js"></script>
+    <script src="js_local/bootstrap.min.js"></script>
+    <script src="js_local/holder.min.js"></script>
+    <script src="js_local/pace.min.js"></script>
+    <script src="js_local/perfect-scrollbar.min.js"></script>
+    <script src="js_local/coreui.min.js"></script>
+    
+
+  <!-- JavaScript CDNs -->
+  <!-- JQuery 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   popper JS 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+   JS Plugins 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+   Holder.JS 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.4/holder.min.js"></script>
+   coreUI.JS 
+    <script src="https://unpkg.com/@coreui/coreui/dist/js/coreui.min.js"></script> -->  
+
+  </body>
+</html>
